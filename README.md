@@ -1,1 +1,16 @@
-# yilu0178_9103_tut2_groupA
+## yilu0178_9103_tut2_groupA
+
+My core approach is based on the group's responsive design framework, introducing Perlin noise algorithms to achieve more natural and organic animation effects. My inspiration comes from creating the SplitCircle class, where I define each split circle as an independent object with its own lifecycle, movement trajectory, and rotation characteristics. This object-oriented design approach makes the code structure clearer, allowing each circle to independently perform state updates and rendering. My animation effects are inspired by Samuel YAN's work "RE:BubbleChamber_4." By referencing the gradual appearance of circles in his work, I decided to set the effect to have the apples gradually disappear.
+
+![RE:BubbleChamber_4](image(1).png)  
+[Link Text](https://openprocessing.org/sketch/1716930)
+
+In terms of visual presentation, I maintained faithful restoration of the original artwork's graphics and colors, with designed animation parameters that make the work present gradual growth and subtle swaying effects, effectively interpreting the vitality concept embodied in "Apple Tree."
+
+## Animation Properties and Technical Innovation
+
+In terms of animation, I selected multiple key properties to create rich visual effects. First is the progressive display effect of circles, controlled by the BORN_FREQUENCY constant, activating a new circular apple every 10 frames to create the visual impression of an apple tree gradually growing. Second is position animation based on Perlin noise, where each circle calculates smooth movement trajectories based on its initial position and unique noise seed, avoiding the abruptness of random movement. Rotation animation is achieved by assigning different rotatedSpeed values to each circle, beginning rotation after all circles complete their "birth." Most importantly is the lifecycle system, where each circle has a random life value, achieving the effect of circles gradually shrinking from full size until disappearance through the decrement of the age property and radius mapping. This multi-layered animation design creates a cyclical process of growth, maturation, and withering that highly aligns with the natural theme of the original artwork.
+
+## Code Technical Implementation
+
+My code performs well in terms of conciseness and readability, with reasonable function division and constant definitions making each functional module's responsibilities clear. I creatively applied multiple techniques learned in class, including object-oriented programming class construction, Perlin noise natural movement simulation, and responsive design canvas adaptation. In terms of technical extension, I developed simple noise applications into complex lifecycle management systems, combining multi-dimensional animation control including position, rotation, and scaling. Compared to the group's random generation method, my implementation focuses more on precise restoration of the original artwork's structure, ensuring the artistic effect of geometric layout through specific setting of precise circle parameters (position, size, color ratio, initial angle).
