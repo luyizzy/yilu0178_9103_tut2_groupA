@@ -2,7 +2,7 @@
 
 My core approach is based on the group's responsive design framework, introducing Perlin noise algorithms to achieve more natural and organic animation effects. My inspiration comes from creating the SplitCircle class, where I define each split circle as an independent object with its own lifecycle, movement trajectory, and rotation characteristics. This object-oriented design approach makes the code structure clearer, allowing each circle to independently perform state updates and rendering. My animation effects are inspired by Samuel YAN's work "RE:BubbleChamber_4." By referencing the gradual appearance of circles in his work, I decided to set the effect to have the apples gradually disappear.
 
-![RE:BubbleChamber_4](image(1).png)  
+![RE:BubbleChamber_4](<image (1).png>)
 [Link Text](https://openprocessing.org/sketch/1716930)
 
 In terms of visual presentation, I maintained faithful restoration of the original artwork's graphics and colors, with designed animation parameters that make the work present gradual growth and subtle swaying effects, effectively interpreting the vitality concept embodied in "Apple Tree."
